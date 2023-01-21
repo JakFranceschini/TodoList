@@ -1,0 +1,8 @@
+.paginaHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerPrincipal {
+    display: flex;
+}
