@@ -119,3 +119,29 @@
     height: 30px;
     background: #25242e;
 }
+
+@media screen and (max-width: 768px) {
+    .containerInputAddTarefa {
+        top: 70px;
+        height: 150px;
+    }
+
+    #inputAddTarefa {
+        width: 300px;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    #containerNovaTarefa {
+        margin-top: 200px;
+    }
+
+    #containerTarefa {
+        width: 360px;
+    }
+
+    #labelNovaTarefa {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+}
