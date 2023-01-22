@@ -126,10 +126,22 @@
         height: 150px;
     }
 
+    #botaoAddTarefa {
+        height: 44px;
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .iconeInputAddTarefa {
+        width: 25px;
+        height: 25px;
+    }
+
     #inputAddTarefa {
         width: 300px;
-        font-size: 1.2rem;
+        height: 40px;
+        font-size: 1rem;
         letter-spacing: 1px;
+        border-radius: 0 15px 15px 0;
     }
 
     #containerNovaTarefa {
@@ -138,10 +150,31 @@
 
     #containerTarefa {
         width: 360px;
+        height: 45px;
+    }
+
+    #botaoConcluirTarefa {
+        height: 45px;
+        border-radius: 15px 0 0 15px;
+    }
+
+    #iconeCheckBox {
+        width: 25px;
+        height: 25px;
     }
 
     #labelNovaTarefa {
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 1px;
+    }
+
+    #botaoDeletarTarefa {
+        height: 45px;
+        border-radius: 0 15px 15px 0;
+    }
+
+    #iconeBotaoDeletarTarefa {
+        width: 25px;
+        height: 25px;
     }
 }
